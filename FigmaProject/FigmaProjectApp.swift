@@ -1,17 +1,12 @@
-//
-//  FigmaProjectApp.swift
-//  FigmaProject
-//
-//  Created by Влад Мади on 03.06.2025.
-//
-
 import SwiftUI
+import SwiftData
 
 @main
 struct FigmaProjectApp: App {
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RouteView()
         }
     }
 }
